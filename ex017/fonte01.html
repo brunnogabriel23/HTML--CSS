@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+
+            /*
+
+            Medidas Absolutas:
+
+            cm = centimetros
+            mm = milimetros
+            in = polegadas
+            px = pixels -------------- RECOMENDADO PELA W3C
+            pt = ponto
+            pc = paica
+
+            Medidas Relativas: 
+
+            em = Medida relativa ao tamanho da fonte atual do elemento(Fonte) ------------- RECOMENDADO PELA W3C
+            ex = Medida relativa ao x da fonte atual do elemento(Fonte)
+            rem = Medida relativa ao tamanho da fonte da raiz do documento
+            vw = Medida relativa ao largura da viewport (Tamanho da tela)
+            vh = Medida relativa ao altura da viewport (Tamanho da tela)
+            % = Medida relativa ao tamanho da tela]
+
+
+            16px geralmente = 1em
+
+            */
+
+            font-size: 1.056 em;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: underline ;
+
+            /*
+            weight = peso
+
+
+
+            width = largura
+            height = altura
+            */
+        }
+
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            /* 
+            SHORTHAND FONT
+            1 - font-style -> 2 font-weight -> 3 font-size -> 4 font-family
+            */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+    <main>
+        <h1>Trabalhando com Fontes</h1>
+        <h2>Fontes em css</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, dolorum. Dignissimos, facilis minus alias assumenda illum numquam laboriosam sed tempore similique tempora provident suscipit a inventore ratione veniam deleniti voluptates.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et explicabo voluptas veritatis nulla odio sapiente. Rem ab ipsa in molestiae porro impedit fugit, expedita commodi doloribus quasi tempora ipsam exercitationem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veritatis, temporibus modi voluptatibus dolorum illum molestiae neque voluptate reprehenderit, animi fugiat quam? Sequi nobis molestiae tempora mollitia, ullam qui tenetur.</p>
+        <h2>Subtítulo do exercícios</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel eaque et, corporis doloribus obcaecati repellendus cum possimus magnam earum nulla illum sunt consequuntur vitae repellat aliquid illo? Minus, eligendi animi.</p>
+    </main>
+    
+</body>
+</html>

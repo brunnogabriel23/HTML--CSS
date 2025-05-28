@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/*
+     EM HTML É ID = EM CSS É # (SÓ PODE UM ELEMENTO)
+     EM HTML É CLASS = EM CSS É . (PODE VARIOS ELEMENTOS)
+     
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+    body{
+        font-family: "Special Gothic Expanded One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #034159;
+    } 
+
+    h1{
+        color: #025951;
+    }
+
+    h1#principal{
+        text-align: center;
+        color: #ffffff;
+        background-color: #034159;
+    }   
+
+    h2 {
+        .special-gothic-expanded-one-regular {
+            font-family: "Special Gothic Expanded One", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            color: #025951;
+
+        }
+    }
+
+    p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    main{
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 8px 8px 8px #3f3f3f9f;
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .basico{
+        background-color: #02735E;
+        color: #ffffff;
+    }
+
+    .intermediario{
+        background-color: #038C3E;
+        color: #ffffff;
+    }
+
+    .avancado{
+        background-color: #0CF25D;
+        color: #ffffff;
+    
+}
+
+    .destaque{
+        text-align: center;
+    }
+ 

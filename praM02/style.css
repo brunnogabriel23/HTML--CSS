@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+header {
+    
+}
+
+nav {
+    background-color: #FF8800;
+    padding: 10px;
+    min-height: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
